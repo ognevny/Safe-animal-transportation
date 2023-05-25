@@ -79,7 +79,7 @@ void loop() {
         break;
       case 1: // настройка температуры
         lcd.setCursor(0, 0);
-        lcd.print("Setings:");
+        lcd.print("Settings:");
         lcd.setCursor(0, 1);
         lcd.print("Temperature:");
         lcd.setCursor(13, 1);
@@ -87,7 +87,7 @@ void loop() {
         break;
       case 2: // настройка влажности
         lcd.setCursor(0, 0);
-        lcd.print("Setings:");
+        lcd.print("Settings:");
         lcd.setCursor(0, 1);
         lcd.print("Humidity:");
         lcd.setCursor(9, 1);
@@ -95,7 +95,7 @@ void loop() {
         break;
       case 3: // настройка CO2
         lcd.setCursor(0, 0);
-        lcd.print("Setings:");
+        lcd.print("Settings:");
         lcd.setCursor(0, 1);
         lcd.print("CO2:");
         lcd.setCursor(5, 1);
